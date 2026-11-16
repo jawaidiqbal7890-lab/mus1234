@@ -77,7 +77,7 @@ if prompt:
                 ]
 
                 response = client.models.generate_content(
-                    model="gemhini-3.8-flas",
+                    model="gemini-3.8-flash",
                     contents=history,
                     config=types.GenerateContentConfig(
                         system_instruction=system_instruction,
